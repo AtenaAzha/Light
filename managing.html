@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+{%block content4%}
+
+<p>Enter email address of team member</p>
+
+<form method="post" action="">
+
+    {%csrf_token%}
+    {{form}}
+    <input type="submit" value="Send">
+
+</form>
+
+
+{%endblock%}

@@ -1,0 +1,7 @@
+{%extends 'base.html'}
+{%block content7%}
+<h3>{{post.user.username}}</h3>
+<p>{{post.slug}}</p>
+<p>{{post.created|timesince}}</p>
+<p>{{post.body}}</p>
+{%endblock%}

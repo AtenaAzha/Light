@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+
+}
+input[type="file"]{
+    display: block;
+}
+label{
+    color: black;
+    height: 60px;
+    width: 256px;
+    background-color: blue;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+}

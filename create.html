@@ -1,0 +1,18 @@
+{%extends 'base.html'%}
+{%block content2%}
+
+<form method="post" action="">
+
+    {%csrf_token%}
+    {{form}}
+    <select class="form-select" multiple aria-label="Multiple select example">
+        <option selected>Gender</option>
+        <option value="1">mail</option>
+        <option value="2">femail</option>
+        <!-- <option value="3">Three</option> -->
+      </select>
+      <input type="submit" value="enter">
+
+
+</form>
+{%endblock%}
